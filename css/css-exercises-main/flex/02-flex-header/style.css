@@ -2,7 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display:flex;
-  align-items: flex-end;
+  align-items: center;
+  margin:8px;
 }
 
 
@@ -13,7 +14,6 @@
   background: white;
   padding: 4px 32px;
   margin:8px;
-  align-self:center;
 }
 
 ul {
@@ -34,4 +34,8 @@ a {
 
 .right-links{
   margin-left: auto;
+}
+
+.left-links {
+  margin-right: auto;
 }

@@ -34,5 +34,8 @@ input {
   display:flex;
   padding:5px;
   list-style-type: none;
+}
+
+a {
   text-decoration: none;
 }

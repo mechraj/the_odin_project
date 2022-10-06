@@ -12,12 +12,16 @@ body {
   align-items:center;
   font-size:32px;
   font-weight: 900;
+  box-sizing:border-box;
+  padding:20px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  box-sizing: border-box;
+  padding : 10px;
 }
 
 .sidebar {
@@ -29,4 +33,17 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.contents {
+  display:flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color:white;
 }

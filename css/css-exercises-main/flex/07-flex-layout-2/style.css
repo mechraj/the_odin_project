@@ -21,7 +21,9 @@ body {
   background: #eee;
   color: darkmagenta;
   box-sizing: border-box;
-  padding : 10px;
+  padding : 32px;
+  display:flex;
+  justify-content: center;
 }
 
 .sidebar {

@@ -13,5 +13,9 @@ let answer=parseInt(prompt('Please enter a number you want to fizz upto: '))
 
 //Step 2 :Looping from 1 to the numbner entereed
 for (let i = 1;i<=answer;i++) {
+    //step 3 :If the number is divisible by 3 we print 3
+    if (i%3==0){
+        console.log('fizz')
+    }
     console.log(i);   
 }

@@ -9,4 +9,9 @@
 //if number is divisible by both 3 and 5, print fizzbuzz
 
 //Step 1 : ASking user for a input
-let answer=parseInt(prompt('lease enter a number you want to fizz upto: '))
+let answer=parseInt(prompt('Please enter a number you want to fizz upto: '))
+
+//Step 2 :Looping from 1 to the numbner entereed
+for (let i = 1;i<=answer;i++) {
+    console.log(i);   
+}
